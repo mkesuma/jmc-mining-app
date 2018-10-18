@@ -5,7 +5,7 @@ var express = require('express'),
     engines = require('consolidate'),
     assert = require('assert'),
     ObjectId = require('mongodb').ObjectID,
-    url = 'mongodb://localhost:27017/simplemean';
+    url = 'mongodb://chal2:ufP0RdwUyJQjltAvQ1JJ0nuDZO6VkIrFsJjpwcvteACfEcOgiVHGvO6SByh0RKP4MxZqCwXC7JAzyM4W6CWh8A==@chal2.documents.azure.com:10255/?ssl=true&replicaSet=globaldb';
 
 app.use(express.static(__dirname + "/public"));
 
